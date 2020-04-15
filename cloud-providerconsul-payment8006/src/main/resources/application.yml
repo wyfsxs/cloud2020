@@ -1,0 +1,16 @@
+server:
+  port: 8006
+
+spring:
+  application:
+    name: consul-provider-payment
+
+  cloud:
+    consul:
+      host: 10.102.100.101
+      port: 8510
+      discovery:
+        service-name: ${spring.application.name}
+        instance-id: consul-provider-payment
+        instance-zone: 10.102.100.1
+        prefer-ip-address: true
