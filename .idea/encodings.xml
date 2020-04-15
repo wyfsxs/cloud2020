@@ -5,6 +5,10 @@
     <file url="file://$PROJECT_DIR$/cloud-api-commons" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-api-commons/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-api-commons/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-brpc-consumer80/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-brpc-consumer80/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-brpc-service8081/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-brpc-service8081/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-comsumerzk-order80" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-comsumerzk-order80/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-comsumerzk-order80/src/main/resources" charset="UTF-8" />

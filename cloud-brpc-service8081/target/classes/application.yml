@@ -1,0 +1,36 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: brpc-payment-server
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: org.gjt.mm.mysql.Driver
+    url: jdbc:mysql://localhost:3306/db2019?useUnicode=true&characterEncoding=utf8&useSSL=false
+    username: root
+    password: root
+    druid:
+      test-while-idle: true
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://127.0.0.1:7001/eureka/
+    fetch-registry: true
+    registry-fetch-interval-seconds: 30
+
+management:
+  security:
+    enabled: false
+
+logging:
+  config: classpath:logback-spring.xml
+  directory: ./logs
+
+brpc:
+  global:
+    server:
+      port: 8002
+      workThreadNum: 1
+      ioThreadNum: 1

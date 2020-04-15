@@ -7,6 +7,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="cloud-brpc-service8081" />
         <module name="cloudalibaba-provider-payment9004" />
         <module name="cloudalibaba-provider-payment9003" />
         <module name="cloudalibaba-provider-payment9002" />
@@ -19,6 +20,7 @@
         <module name="seata-storage-service2002" />
         <module name="cloud-coumser-feign-order80" />
         <module name="cloud-providerconsul-payment8006" />
+        <module name="cloud-brpc-consumer80" />
         <module name="cloud-consumer-feign-hystrix-order80" />
         <module name="cloud-stream-rabbitmq-consumer8802" />
         <module name="cloudalibaba-config-nacos-client3377" />
